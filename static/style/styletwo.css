@@ -384,12 +384,22 @@ margin-top: 100px;
     margin-top: 25px;
 }
 
+.sms__textarea {
+    background-color: #414141;
+}
+
+
 .footer__input {
     width: 570px;
-    height: 60px;
+    min-height: 60px;
     background-color: #414141;
     color: #cacaca;
 }
+.footer__survey-item-sms {
+    margin-top: 25px;
+    height: 150px;
+}
+
 .placeholder {
 color: #cacaca;
 }
