@@ -150,7 +150,7 @@
 
         <section class="about-us">
             <div class="container about-us__conteiner">
-                <h2 class="container-header about-us__header">О нас</h2>
+                <h2 class="container_header about-us__header">О нас</h2>
                 <p class="about-us__description">Также как перспективное планирование создаёт необходимость включения в
                     производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов,
                     поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны
@@ -161,21 +161,15 @@
                     что высококачественный прототип будущего проекта способствует повышению качества экспериментов.</p>
 
                 <div class="about-us__container-flex">
-
                     <div class="about-us__container-image">
-
+                        <!--background image-->
                         <div class="aboust-us__container-image-description">
-                            <ul class="aboust-us__container-image-description-list">
-                                <li class="aboust-us__container-image-description-item-text">
-                                    Принимая во внимание показатели успешности, перспективное планирование способствует
-                                    подготовке и реализации новых принципов.
-                                </li>
-                                <li class="aboust-us__container-image-description-item">
-                                    <a class="about-us__item-btn" href="">Подробней</a>
-                                </li>
-                            </ul>
+                            <p class="aboust-us__container-image-description-text">Принимая во внимание показатели
+                                успешности, перспективное планирование способствует
+                                подготовке и реализации новых принципов. </p>
+
+                            <a class="about-us__item-btn" href="">Подробней</a>
                         </div>
-                        <!-- <img src="static/image/Rectangle 2.jpg" width="868px" height="622px" alt="">-->
                     </div>
 
                     <div class="about-us__container-content">
@@ -248,8 +242,7 @@
 
         <section class="about-work">
             <div class="container about-work__container">
-                <h2 class="container-header about-work__header">Как мы работаем</h2>
-                <nav class="about-work__nav">
+                <h2 class="container_header about-work__header">Как мы работаем</h2>
                     <ul class="about-work__list">
                         <li class="about-work__item">
                             <a href="" class="nav-link-active">
@@ -272,7 +265,6 @@
                             </a>
                         </li>
                     </ul>
-                </nav>
                 <div class="about-work__box">
                     <div class="about-work__content">
                         <h3 class="about-work__content-header header-box">Проводим консультацию</h3>
@@ -290,17 +282,13 @@
                             картины в
                             целом, однако конкретные выводы, разумеется, призваны к ответу.
                         </p>
-                        <ul class="about-work__list-btn">
-                            <li class="about-work__item-btn">
-                                <a class="button about-work__item-btn-link" href="">Подробней</a>
-                            </li>
-                            <li class="about-work__item-btn">
-                                <a class="contract-btn about-work__item-btn-link" href="">Договор</a>
-                            </li>
-                        </ul>
+                        <div class="about-work__list-btn">
+                            <a class="button about-work__item-btn-link" href="">Подробней</a>
+                            <a class="contract-btn about-work__item-btn-link" href="">Договор</a>
+                        </div>
                     </div>
                     <div class="about-work__photo">
-                        <img src="static/image/Rectangle 18.jpg" height="100%" width="100%" alt="">
+                        <img src="static/image/Rectangle 18.jpg" height="100%" width="100%" alt="Работа в офисе">
                         <!--background-image dont-delete-->
                     </div>
                 </div>
@@ -309,7 +297,7 @@
 
         <section class="question">
             <div class="container question__container">
-                <h2 class="container-header question__header">
+                <h2 class="container_header question__header">
                     Часто задаваемые вопросы
                 </h2>
                 <div class="question__content question__content-one">
@@ -333,8 +321,7 @@
                     <div class="question__content-description">
                         У меня есть свой проект. Сможем ли мы его доработать / реализовать?
                     </div>
-                    <div class="question__content-btn-more">
-                        <a href="">
+                        <a href="" class="question__content-btn-more">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
@@ -343,7 +330,6 @@
                                     fill="#666666" />
                             </svg>
                         </a>
-                    </div>
                 </div>
 
                 <div class="question__content">
@@ -573,7 +559,7 @@
                     <input type="email" placeholder="E-mail*" class="footer__input">
                     <textarea name="textarea" cols="74" rows="10" placeholder="Сообщение"
                         class="sms__textarea"></textarea>
-                        <br>
+                    <br>
                     <a class="button footer__survey-btn" href="">
                         Отправить данные
                     </a>

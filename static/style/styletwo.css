@@ -118,7 +118,7 @@ html {
     margin-top: 100px;
 }
 
-.container-header {
+.container_header {
     font-size: 48px;
     color: #333333;
 }
@@ -132,26 +132,20 @@ html {
 .about-us__container-image {
 background-image: url(../image/Rectangle\ 2.jpg);
 width: 868px;
-height: 560px;
+height: 580px;
 position: relative;
 }
 
 .aboust-us__container-image-description {
     position: absolute;
     background-size: contain;
-    /* width: 868px;
-    height: 196px; */
     margin-left: 0px;
-    margin-top: 389px;
+    margin-top: 407px;
     background: rgba(0, 0, 0, 0.5);
 }
 
-.aboust-us__container-image-description-list {
-    display: flex;
-    justify-content: space-between;
-}
 
-.aboust-us__container-image-description-item-text {
+.aboust-us__container-image-description-text {
     max-width: 454px;
     font-size: 16px;
     font-weight: 700;
@@ -197,7 +191,7 @@ color: white;
 }
 
 .about-us__container-content-box:not(:last-child) {
-    margin-bottom: 35px;
+    margin-bottom: 52px;
 }
 
 .about-us__container-content-box-image {
@@ -212,6 +206,10 @@ color: white;
     font-size: 24px;
     color: #333333;
     font-weight: 700;
+}
+.aboust-us__container-image-description {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -266,9 +264,6 @@ color: white;
     display: flex;
 }
 
-.about-work__item-btn:not(:last-child) {
-    margin-right: 25px;
-}
 
 .about-work__photo {
  margin-top: 30px;
@@ -279,7 +274,8 @@ color: white;
         line-height: 1;
         color: #333333 ;
         background-color: white;
-        padding: 24px 36px;
+        margin-left: 20px;
+        padding: 18px 24px;
         border: solid 1px #333333;
         border-radius: 4px;
         cursor: pointer;
@@ -469,3 +465,6 @@ z-index: -1;
     transform: translate(-50% , -50%) scale(1)
 }
 
+/* @media only screen and (min-width : 320px) and (max-width : 480px){
+    display: none;
+} */
