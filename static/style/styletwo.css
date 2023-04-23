@@ -38,12 +38,13 @@ html {
 .header__container {
     display: flex;
     align-items: center;
-     justify-content: space-between; 
-     height: 100px;
+    justify-content: space-between; 
+    height: 100px;
 }
 
 .header__nav-list {
     display: flex;
+    gap: 85px;
 }
 
 
@@ -58,10 +59,7 @@ html {
 .header__nav-item {
     font-size: 18px;
     font-weight: 600;
-}
-
-.header__nav-item:not(:last-child) {
-    margin-right: 85px;
+    list-style: none;
 }
 
 /* section-hero */
@@ -69,16 +67,11 @@ html {
 .section-hero__container {
     background-image: url('../image/low-angle-photo-of-balconies-2462015\ 1.jpg') ;
     height: 620px;
-    width: 1770px;
+    width: 100%;
+    padding: 40px 620px 60px 60px;
 
 }
 
-.section-hero__container-description {
-    margin: 0;
-    padding-top: 80px;
-    padding-left: 35px;
-    max-width: 837px;
-}
 
 .section-hero__header {
     font-size: 70px;
@@ -131,7 +124,7 @@ html {
 
 .about-us__container-image {
 background-image: url(../image/Rectangle\ 2.jpg);
-width: 868px;
+width: 668px;
 height: 580px;
 position: relative;
 }
@@ -139,9 +132,11 @@ position: relative;
 .aboust-us__container-image-description {
     position: absolute;
     background-size: contain;
-    margin-left: 0px;
-    margin-top: 407px;
     background: rgba(0, 0, 0, 0.5);
+    top: 409px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
@@ -178,29 +173,31 @@ color: white;
 .about-us__container-flex {
     margin-top: 50px;
     display: flex;
+
+}
+.about-us__container-content-box-first {
+    margin-bottom: 52px;
 }
 
 .about-us__container-image {
     margin-right: 32px;
 }
 
-.about-us__container-content-box {
-    max-width: 870px;
-    max-height: 295px;
-    border: solid 1px #cacaca;
-}
-
-.about-us__container-content-box:not(:last-child) {
-    margin-bottom: 52px;
-}
-
-.about-us__container-content-box-image {
-    padding: 45px 40px 45px 40px;
-}
-
-.about-us__container-content-box {
+.about-us__container-content-box{
     display: flex;
+    gap: 40px;
+    border: solid 1px #cacaca;
+    align-items: center center;
+    padding: 30px 30px;
+
 }
+
+.about-us__container-content-box-description {
+     max-width: 380px;
+
+}  
+
+
 
 .header-box {
     font-size: 24px;
@@ -213,9 +210,8 @@ color: white;
 }
 
 
-.about-us__container-content-box-description {
-    padding: 20px 40px 20px 0;
-}
+
+
 .box-description {
     font-size: 16px;
     color: #333333;
@@ -269,12 +265,15 @@ color: white;
  margin-top: 30px;
 }
 
+.about-work__item-btn-link {
+    margin-right: 20px;
+}
+
 .contract-btn {
         font-size: 20px;
         line-height: 1;
         color: #333333 ;
         background-color: white;
-        margin-left: 20px;
         padding: 18px 24px;
         border: solid 1px #333333;
         border-radius: 4px;
@@ -322,9 +321,11 @@ margin-top: 100px;
     background-color: #222;
 }
 
-.footer_logo {
+.footer__left {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
+
 
 .footer__container {
     display: flex;
@@ -357,30 +358,23 @@ margin-top: 100px;
 
 .footer__social-icons {
     margin-top: 90px;
-    margin-bottom: 50px;
     display: flex;
+    gap: 25px;
 }
 
-
-
-
-
-.footer__social-icon-link:not(:last-child) {
-    margin-right: 25px;
-}
 
 .footer__application-header {
     margin-top: 0;
     color: #cacaca;
 }
 .footer__survey {
-    min-height: 471px;
-    margin-left: 150px;
+    flex: 0 0 50%;
 }
 
 
 .sms__textarea {
     background-color: #414141;
+    resize: none;
 }
 
 
@@ -443,6 +437,7 @@ z-index: -1;
     background-color:#222 ;
     border: 1px solid #cacaca ;
     margin-right: 4px;
+    cursor: pointer;
 }
 
 .customs-checkbox::before {
@@ -464,7 +459,3 @@ z-index: -1;
 .footer__real-checkbox:checked + .customs-checkbox::before {
     transform: translate(-50% , -50%) scale(1)
 }
-
-/* @media only screen and (min-width : 320px) and (max-width : 480px){
-    display: none;
-} */
