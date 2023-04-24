@@ -1,0 +1,302 @@
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 992px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .container_header {
+        font-size: 48px;
+        font-weight: 400;
+    }
+
+    .header_logo {
+        max-width: 200px;
+    }
+    .header_container {
+        max-width: 1024px;
+        align-items: center center;
+        margin: 0;
+    }
+    .header__cantainer-nav {
+        display: none;
+    }
+    .section-hero__container {
+        padding: 100px 220px 160px 77px;
+    }
+    .section-hero__header {
+        font-size: 60px;
+        margin-bottom: 16px;
+    }
+    .section-hero__description {
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    .about-us__container-flex {
+        display: block;
+        margin-bottom: 32px;
+    }
+    .about-us__container-content-box-first {
+        margin-bottom: 22px;
+    }
+
+    .about-us__container-image {
+        background-image: url(../image/Rectangle\ 2.jpg) ;
+        max-width: 944px;
+        height: 640px;
+        margin-right: 0;
+    }
+   .aboust-us__container-image-description-text {
+    width: 350px;
+   }
+   .aboust-us__container-image-description{
+    top: 425px;
+    max-width: 944px;
+   }
+   .about-us__item-btn {
+    width: 200px;
+   }
+
+    .about-work__photo {
+        width: 457px;
+        height: 689px;
+    }
+    .about-work__content {
+        max-width: 437px;
+        margin-right: 50px;
+    }
+    .about-work__content-description {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .about-work__box {
+        margin-top: 50px;
+    }
+    .question__content-description {
+        font-size: 20px;
+    }
+    .footer__right-content{
+        display: none;
+    }
+    .footer__left {
+        margin-left: 45px;
+    }
+    .footer__survey  {
+        margin-right: 25px;
+    }
+    .footer__application-header{
+        font-size: 48px;
+        font-weight: 400;
+    }
+
+    .sms__textarea {
+        width: 570px;
+    }
+}
+
+@media screen and ( max-width:769px) {
+    .container {
+        max-width: 668px;
+    }
+    .header_container {
+        max-width: 768px;
+        align-items: center center;
+        margin: 0;
+    }
+    .section-hero__container {
+        padding: 160px 40px;
+    }
+    .section-hero__header {
+        font-size: 50px;
+        margin-bottom: 16px;
+    }
+    .section-hero__description {
+        font-size: 18px;
+    }
+    .aboust-us__container-image-description{
+        top: 430px;
+    }
+    .about-us {
+        margin-top: 80px;
+    }
+    .about-us__item-btn {
+        right: 10px;
+        left: 450px ;
+    }
+    .about-us__container-image {
+        background-image: url(../image/Rectangle\ 2.jpg) ;
+        width: 668px;
+        height: 662px;
+    }
+    .about-work__photo {
+        width: 668px;
+        height: 284px;
+    }
+    .about-work__list-btn {
+        margin-bottom: 50px;
+    }
+    .about-work__content {
+        max-width: 668px;
+        margin-bottom: 100px;
+    }
+    .about-work__box {
+        display: block;
+        padding: 50;
+    }
+    .footer__container {
+        display: block;
+    }
+    .footer__left-list {
+        display: none;
+    }
+    .footer__social-icons {
+        margin-top: 15px;
+    }
+    .footer__left {
+        margin-top: 0;
+        margin-bottom: 0px;
+        margin-left: 50px;
+    }
+    .footer__survey {
+        margin-left: 50px;
+    }
+}
+
+ @media screen and (max-width:415px) {
+    .container {
+        max-width: 320px;
+    }
+    .button {
+        font-size: 14px;
+        padding: 14px ;
+    }
+    .container_header {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .header_container {
+        max-width: 320px;
+        max-height: 308px;
+        align-items: center center;
+        margin: 0;
+    }
+    
+    .section-hero__container {
+        background-image: url('../image/low-angle-photo-of-balconies-2462015\ 1\ 320px.png') ;
+        padding: 60px 40px;
+        height: 308px;
+    }
+    .section-hero__header {
+        font-size: 22px;
+        margin-bottom: 6px;
+    }
+    .section-hero__description {
+        font-size: 12px;
+    }
+
+    .about-us {
+        margin-top: 60px;
+    }
+    .about-us__description {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .about-us__container-image {
+        background-image: url(../image/Rectangle\ 320px.png) ;
+        width: 290px;
+        height: 200px;
+    }
+    .aboust-us__container-image-description{
+        display: none;
+    }
+    .about-us__container-content-box-first {
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    .about-us__container-content-box {
+        border: none;
+        display: block;
+    }
+
+    .about-work{
+        margin-top: 20px;
+    }
+
+    .about-work__photo {
+        width: 290px;
+        height: 200px;
+    }
+    .about-work__content-description {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contract-btn {
+        font-size: 14px;
+        padding: 14px;
+    }
+    .about-work__content-description {
+        margin-right: 0;
+    }
+    .question__content-description{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .about-work__content {
+        margin-bottom: 50px;
+    }
+    .footer__left {
+        margin-left: 15px;
+        border-bottom: 1px solid #595959;
+    }
+    .footer__social-icons {
+        margin-bottom: 15px;
+    }
+    .footer__application-header{
+        font-size: 24px;
+        font-weight: 400;
+    }
+  
+    .footer__survey {
+        margin-left: 15px;
+    }
+    .footer__input {
+        width: 250px;
+        height: 50px;
+    }
+
+    .sms__textarea {
+        width: 250px;
+    }
+
+    .footer__survey-checkbox{
+        display: block;
+    }
+
+    .footer__survey-btn{
+        align-items: center center;
+        margin-top: 10px;
+        margin-left: 35px;
+        margin-bottom: 15px;
+    }
+
+    .footer__survey-checkbox{
+        margin-left: 0;
+    }
+
+    .footer__agree {
+        font-size: 14px;
+    } 
+
+}
+
+
+
+
+
+@media screen and (min-width:1024px) {
+    .header__burger {
+        display: none;
+    }
+}

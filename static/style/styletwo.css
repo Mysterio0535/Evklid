@@ -16,6 +16,9 @@ main {
     overflow: hidden;
 }
 
+h2 {
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
@@ -40,6 +43,7 @@ html {
     align-items: center;
     justify-content: space-between; 
     height: 100px;
+    max-width: 1900px;
 }
 
 .header__nav-list {
@@ -66,8 +70,9 @@ html {
 
 .section-hero__container {
     background-image: url('../image/low-angle-photo-of-balconies-2462015\ 1.jpg') ;
+    background-repeat: no-repeat;
     height: 620px;
-    width: 100%;
+    width: 1900px;
     padding: 40px 620px 60px 60px;
 
 }
@@ -111,6 +116,10 @@ html {
     margin-top: 100px;
 }
 
+.about-work__list {
+    margin-top: 50px;
+}
+
 .container_header {
     font-size: 48px;
     color: #333333;
@@ -124,16 +133,18 @@ html {
 
 .about-us__container-image {
 background-image: url(../image/Rectangle\ 2.jpg);
-width: 668px;
-height: 580px;
-position: relative;
+background-repeat: no-repeat;
+width: 868px;
+height: 622px;
+position: relative; 
+margin: 0;
 }
 
 .aboust-us__container-image-description {
     position: absolute;
     background-size: contain;
     background: rgba(0, 0, 0, 0.5);
-    top: 409px;
+    height: 196px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -141,19 +152,21 @@ position: relative;
 
 
 .aboust-us__container-image-description-text {
-    max-width: 454px;
+    max-width: 440px;
     font-size: 16px;
     font-weight: 700;
     line-height: 32px;
     color: white;
-    margin: 30px 0 30px 30px
+    margin-top: 40px;
+     margin-left: 15px;
+     /* top: 60px; */
+     align-items: center center;
 }
 
 .about-us__item-btn {
         font-size: 20px;
         line-height: 1;
         color: white ;
-        padding: 24px 36px;
         border: solid 2px #FF9900;
         border-radius: 4px;
         cursor: pointer;
@@ -161,7 +174,13 @@ position: relative;
         display: inline-block;
         font-weight: 600;
         transition: 0.5s ease;
-        margin: 50px 50px 50px 0;
+        position: absolute;
+        top: 60px;
+        bottom: 60px;
+        right: 40px;
+        left: 520px;
+        padding: 24px 0 24px 0;
+        text-align: center;
   }
 
   .about-us__item-btn:hover {
@@ -170,13 +189,14 @@ color: white;
   }
 
 
+
 .about-us__container-flex {
     margin-top: 50px;
     display: flex;
 
 }
 .about-us__container-content-box-first {
-    margin-bottom: 52px;
+    margin-bottom: 92px;
 }
 
 .about-us__container-image {
@@ -186,6 +206,8 @@ color: white;
 .about-us__container-content-box{
     display: flex;
     gap: 40px;
+    min-height: 250px;
+    position: relative;
     border: solid 1px #cacaca;
     align-items: center center;
     padding: 30px 30px;
@@ -193,10 +215,9 @@ color: white;
 }
 
 .about-us__container-content-box-description {
-     max-width: 380px;
-
+     max-width: 410px;
+     /* max-height: 250px ; */
 }  
-
 
 
 .header-box {
@@ -257,16 +278,12 @@ color: white;
 
 .about-work__list-btn {
     margin-top: 60px;
-    display: flex;
+    display: flex; 
 }
 
-
-.about-work__photo {
- margin-top: 30px;
-}
 
 .about-work__item-btn-link {
-    margin-right: 20px;
+    margin-right:  20px;
 }
 
 .contract-btn {
@@ -297,6 +314,11 @@ margin-top: 100px;
 
 .question__content-one {
     border-top: #333333 1px solid;
+    
+}
+
+.question__header {
+    margin-bottom: 32px;
 }
 
 .question__content {
@@ -388,6 +410,9 @@ margin-top: 100px;
 .footer__survey-item-sms {
     margin-top: 25px;
     height: 150px;
+}
+.sms__textarea {
+    width: 570px;
 }
 
 .placeholder {
