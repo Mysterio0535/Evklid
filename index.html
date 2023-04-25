@@ -14,11 +14,45 @@
 
     <header class="header">
         <div class="header__container">
-            <svg class="header__burger" width="30" height="23" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="30" height="3" fill="#333333"/>
-                <rect y="10" width="30" height="3" fill="#333333"/>
-                <rect y="20" width="30" height="3" fill="#333333"/>
-                </svg>
+
+            <div id="menu" class="menu is-active">
+                <nav class="header__container-menu-brg-nav">
+                    <ul class="header__container-menu-brg-nav-item">
+                        <li class="header__container-menu-brg-nav-list">
+                            <a class="header__container-menu-brg-nav-link" href="">
+                                О нас
+                            </a>
+                        </li>
+                        <li class="header__container-menu-brg-nav-list">
+                            <a class="header__container-menu-brg-nav-link" href="">
+                                Проекты
+                            </a>
+                        </li>
+                        <li class="header__container-menu-brg-nav-list">
+                            <a class="header__container-menu-brg-nav-link" href="">
+                                Этапы
+                            </a>
+                        </li>
+                        <li class="header__container-menu-brg-nav-list">
+                            <a class="header__container-menu-brg-nav-link" href="">
+                                Отзывы
+                            </a>
+                        </li>
+                        <li class="header__container-menu-brg-nav-list">
+                            <a class="header__container-menu-brg-nav-link" href="">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="burger" class="burger">
+                <svg class="header__burger-btn" width="30" height="23" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="30" height="3" fill="#333333"/>
+                    <rect y="10" width="30" height="3" fill="#333333"/>
+                    <rect y="20" width="30" height="3" fill="#333333"/>
+                    </svg>
+            </div>
             <a href="">
                 <svg class="header_logo" width="225" height="72" viewBox="0 0 225 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -127,6 +161,7 @@
                     </li>
                 </ul>
             </nav>
+
             <div class="header__icon-search">
                 <a href="" class="header__nav-link">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -172,9 +207,10 @@
                                 успешности, перспективное планирование способствует
                                 подготовке и реализации новых принципов. </p>
 
-                            <a class="about-us__item-btn" href="">Подробней</a>
+                            <a class="about-us__container-image-description-btn" href="">Подробней</a>
                         </div>
                     </div>
+                    <a class="about-us__container-image-description-btn about-us__container-image-description-btn-none" href="">Подробней</a>
 
                     <div class="about-us__container-content">
                         <div class="about-us__container-content-box about-us__container-content-box-first">
@@ -292,7 +328,8 @@
                         </div>
                     </div>
                     <div class="about-work__photo">
-                        <img src="static/image/Rectangle 18.jpg" height="100%" width="100%" alt="Работа в офисе">
+                        <img class="about-work__photo-imageFirst" src="static/image/Rectangle 18.jpg" height="100%" width="100%" alt="Работа в офисе">
+                        <img class="about-work__photo-imageDo" src="static/image/Rectangle 18 1024px.png" height="100%" alt="">
                         <!--background-image dont-delete-->
                     </div>
                 </div>
@@ -557,23 +594,28 @@
                 </div>
             </div>
             <div class="footer__survey">
-                <h2 class="container-header footer__application-header">Оставить заявку</h2>
-                <form action="">
-                    <input type="text" placeholder="Фамилия , имя , отчество*" class="footer__input">
-                    <input type="email" placeholder="E-mail*" class="footer__input">
-                    <textarea name="textarea" cols="74" rows="10" placeholder="Сообщение"
-                        class="sms__textarea"></textarea>
-                    <br>
-                    <a class="button footer__survey-btn" href="">
-                        Отправить данные
-                    </a>
-                    <label class="footer__survey-checkbox">
-                        <input type="checkbox" class="footer__real-checkbox">
-                        <span class="customs-checkbox"></span>
-                        <span class="footer__agree">
-                            Согласен на обработку данных
-                        </span>
-                    </label>
+                    <h2 class="container-header footer__application-header">Оставить заявку</h2>
+                    <form class="footer__survey-form" action="">
+                        <input type="text" placeholder="Фамилия , имя , отчество*" class="footer__input">
+                        <input type="email" placeholder="E-mail*" class="footer__input">
+                        <textarea name="textarea" cols="74" rows="10" placeholder="Сообщение"
+                            class="sms__textarea"></textarea>
+                            <div class="footer__survey-flex">
+                                <div class="footer__survey-flex-button">
+                                    <button class="button footer__survey-btn" href="">
+                                        Отправить данные
+                                    </button>
+                                </div>
+                            <div class="footer__survey-flex-box">
+                            <label class="footer__survey-checkbox">
+                                <input type="checkbox" class="footer__real-checkbox">
+                                <span class="customs-checkbox"></span>
+                                <span class="footer__agree">
+                                    Согласен на обработку данных
+                                </span>
+                            </label>
+                        </div>
+                            </div>
                 </form>
             </div>
             <div class="footer__right-content">
@@ -588,7 +630,7 @@
 
     </footer>
 
-
+<script src="static/style/js/jafa.js"></script>
 </body>
 
 </html>
