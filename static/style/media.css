@@ -29,8 +29,7 @@ padding: 10px;
     .header__cantainer-nav {
         display: none;
     }
-    .section-hero__container {
-        width: 100%;
+    .swiper-slide__description{
         padding: 30px 220px 200px 50px;
     }
     .section-hero__header {
@@ -72,7 +71,6 @@ padding: 10px;
    .about-us__item-btn {
     width: 200px;
    }
-
     .about-work__photo {
         width: 457px;
         height: 689px;
@@ -137,7 +135,8 @@ padding: 10px;
         align-items: center center;
         margin: 0;
     }
-    .section-hero__container {
+
+    .swiper-slide__description{
         padding: 70px 40px;
     }
     .section-hero__header {
@@ -228,11 +227,11 @@ padding: 10px;
         align-items: center center;
         margin: 0;
     }
-    
-    .section-hero__container {
-        background-image: url('../image/low-angle-photo-of-balconies-2462015\ 1\ 320px.png') ;
-        padding:20px;
-        height: 308px;
+    .swiper {
+        height: 300px;
+          }
+    .swiper-slide__description{
+        padding: 20px;
     }
     .section-hero__header {
         font-size: 22px;
@@ -326,18 +325,24 @@ padding: 10px;
         display: block;
     }
 
-    .footer__survey-btn{
-        align-items: center center;
-        margin-top: 10px;
-        margin-left: 35px;
-        margin-bottom: 15px;
-    }
     .footer__agree {
         font-size: 14px;
     }     
 }
 
-
+@media screen and ( max-width:600px) {
+    .menu {
+        width: 150px;
+        height: 350px;
+        padding: 10px;
+        background-color: #222;
+        transition: transform 0.3s ease-in-out;
+}
+    /* .card-body {
+        width: 150px ;
+        height: 350px;
+    } */
+}
 
 @media screen and (min-width:1224px) {
     .burger {
@@ -348,14 +353,8 @@ padding: 10px;
     }
     .footer__survey-flex {
         display: flex;
-        margin-top: 22px;
+        margin-top: 10px;
     }
-  .footer__survey-flex-box{
-   margin-top: 15px;
-  }
-  .footer__survey-checkbox {
-    margin-left: 25px;
-}
 }
 @media screen and (min-width:769px){
  .about-us__container-image-description-btn-none {
