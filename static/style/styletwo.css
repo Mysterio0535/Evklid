@@ -178,14 +178,13 @@ background-repeat: no-repeat;
 width: 868px;
 height: 622px;
 position: relative; 
-margin: 0;
 }
 
 .aboust-us__container-image-description {
     position: absolute;
     background-size: contain;
     background: rgba(0, 0, 0, 0.5);
-    /* width: 868px; */
+    max-width: 868px;
     height: 196px;
     bottom: 0;
     left: 0;
