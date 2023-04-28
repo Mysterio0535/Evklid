@@ -82,24 +82,17 @@ padding: 10px;
     width: 200px;
    }
     .about-work__photo {
-        width: 457px;
-        height: 689px;
+        width: 55%;
+        height: auto;
     }
     .about-work__content {
-        max-width: 437px;
+        max-width: 45%;
         margin-right: 50px;
     }
     .about-work__content-description {
         font-size: 16px;
         line-height: 32px;
     }
-    .about-work__photo-imageFirst {
-        display: none;
-    }
-    .about-work__photo-imageDo {
-        display: block;
-    }
-
     .about-work__box {
         margin-top: 50px;
     }
